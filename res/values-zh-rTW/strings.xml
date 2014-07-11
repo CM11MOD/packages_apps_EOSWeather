@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/* //device/apps/common/assets/res/any/strings.xml
+**
+** Copyright 2006, The Android Open Source Project
+**
+** Licensed under the Apache License, Version 2.0 (the "License");
+** you may not use this file except in compliance with the License.
+** You may obtain a copy of the License at
+**
+**     http://www.apache.org/licenses/LICENSE-2.0
+**
+** Unless required by applicable law or agreed to in writing, software
+** distributed under the License is distributed on an "AS IS" BASIS,
+** WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+** See the License for the specific language governing permissions and
+** limitations under the License.
+*/
+-->
+<resources>
+
+    <string name="on">啟用</string>
+    <string name="off">關閉</string>
+    <string name="cancel">取消</string>
+    <string name="apply">套用</string>
+    <string name="settings">設定</string>
+    <string name="cfx_weather">CFX 天氣欄</string>
+    <string name="enable">啟用</string>
+    <string name="one_minute">1 分鐘 (調試模式)</string>
+    <string name="fifteen_minutes">15 分鐘</string>
+    <string name="thirty_minutes">30 分鐘</string>
+    <string name="one_hour">1 小時</string>
+    <string name="three_hours">3 小時</string>
+    <string name="six_hours">6 小時</string>
+    <string name="weather_refresh_interval_title">刷新間隔</string>
+    <string name="weather_fahrenheit">華氏</string>
+    <string name="weather_celsius">攝氏</string>
+    <string name="weather_temp_scale_title">溫度計</string>
+    <string name="refresh">刷新</string>
+    <string name="location_mode_title">定位模式</string>
+    <string name="location_network">網路</string>
+    <string name="location_fused">系統自定</string>
+    <string name="location_passive">被動式 GPS</string>
+    <string name="location_gps">GPS</string>
+    <string name="wind">風向</string>
+    <string name="wind_chill">寒意</string>
+    <string name="wind_speed">風速</string>
+    <string name="wind_direction">風向</string>
+    <string name="conditions">狀態</string>
+    <string name="humidity">濕度</string>
+    <string name="pressure">氣壓</string>
+    <string name="visibility">能見度</string>
+    <string name="credits">版權信息</string>
+    <string name="credits_deviant_art">deviantART</string>
+    <string name="credits_icon_name">SILq 天氣圖示:</string>
+    <string name="credits_icon_author">d3stroy</string>
+    <string name="credits_icon_license">使用 Creative 一般許可</string>
+    <string name="credits_weather_service">天氣服務</string>
+    <string name="credits_yahoo">雅虎天氣服務</string>
+    <string name="credits_xml_name">XML 對照: zh-wang</string>
+
+    <!-- Condition strings based on condition code integer from yahoo servers
+         It seems yahoo servers only provide the forecast text in english
+         so we have to handle translations
+    -->
+    <string name="tornado">龍捲風</string>
+    <string name="tropical_storm">熱帶風暴</string>
+    <string name="hurricane">颶風</string>
+    <string name="severe_thunderstorms">強雷暴</string>
+    <string name="thunderstorms">雷暴</string>
+    <string name="mixed_rain_snow">雨雪</string>
+    <string name="mixed_rain_sleet">雨夾雪</string>
+    <string name="mixed_snow_sleet">雪夾雨</string>
+    <string name="freezing_drizzle">凍毛毛雨</string>
+    <string name="drizzle">毛毛雨</string>
+    <string name="freezing_rain">凍雨</string>
+    <string name="showers">驟雨</string>
+    <string name="snow_flurries">陣雪</string>
+    <string name="light_snow_showers">小陣雪</string>
+    <string name="blowing_snow">吹雪</string>
+    <string name="snow">雪</string>
+    <string name="hail">冰雹</string>
+    <string name="sleet">雨雪</string>
+    <string name="dust">塵</string>
+    <string name="foggy">雰</string>
+    <string name="haze">霾</string>
+    <string name="smoky">煙</string>
+    <string name="blustery">壞天氣</string>
+    <string name="windy">刮風</string>
+    <string name="cold">寒冷</string>
+    <string name="cloudy">多雲</string>
+    <string name="mostly_cloudy">大部份時間多雲</string>
+    <string name="partly_cloudy">間中多雲</string>
+    <string name="clear">晴</string>
+    <string name="sunny">晴朗</string>
+    <string name="fair">一般</string>
+    <string name="mixed_rain_hail">混合雨和冰雹</string>
+    <string name="hot">炎熱</string>
+    <string name="isolated_thunderstorms">密集雷暴</string>
+    <string name="scattered_thunderstorms">零星雷雨</string>
+    <string name="scattered_showers">零星下雨</string>
+    <string name="heavy_snow">大雪</string>
+    <string name="scattered_snow_showers">零星雪雨</string>
+    <string name="thundershowers">雷陣雨</string>
+    <string name="snow_showers">陣雪</string>
+    <string name="isolated_thundershowers">密集雷陣雨</string>
+    <string name="not_available">未知</string>
+
+    <!-- Days of the week translatable, short and full -->
+    <string name="mon_long">週一</string>
+    <string name="tue_long">週二</string>
+    <string name="wed_long">週三</string>
+    <string name="thur_long">週四</string>
+    <string name="fri_long">週五</string>
+    <string name="sat_long">週六</string>
+    <string name="sun_long">週日</string>
+</resources>
